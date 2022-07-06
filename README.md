@@ -2,11 +2,9 @@
 
 ## Deployments
 
-[AWS GUI Deployment](http://auth-api-test-deployment.eba-ndngvc2a.us-west-2.elasticbeanstalk.com/)
+[AWS GUI Deployment](http://authapiroung8-env.eba-wwrfmmbs.us-west-2.elasticbeanstalk.com/)
 
 [AWS CLI Deployment](http://auth-api.eba-reb6mmqf.us-west-2.elasticbeanstalk.com/)
-
-(Visiting base url above will only result in a 404)
 
 ## Author
 
@@ -18,18 +16,18 @@ AWS deployment on GUI is easy, but CLI is sweet and straight to the point. After
 
 ### Using Terminal
 
-![AWS CLI Deployment](./cli-beanstalk-deploy.png)
+![AWS CLI Deployment](./img/cli-beanstalk-deploy.png)
 
 ### Checking Routes with Postman
 
 **POST without Auth**
 
-![POST no Auth](./post-v1route.png)
+![POST no Auth](./img/post-v1route.png)
 
 **Signup**
 
-![Signup](./signup.png)
+![Signup](./img/signup.png)
 
 **GET with Auth**
 
-![GET with Auth](./get-v2route-wAuth.png)
+![GET with Auth](./img/get-v2route-wAuth.png)
